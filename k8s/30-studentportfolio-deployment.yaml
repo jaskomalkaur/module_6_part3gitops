@@ -20,7 +20,7 @@ spec:
       containers:
         - name: studentportfolio
           image: ghcr.io/jaskomal-kaur/module_6_part3-studentportfolio:latest
-     
+
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
